@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name Relay_Panasonic)(type KiCad)(uri ${KIPRJMOD}/Relay_Panasonic.pretty)(options "")(descr ""))
+  (lib (name TerminalBlock_Phoenix_PTSA)(type KiCad)(uri ${KIPRJMOD}/TerminalBlock_Phoenix_PTSA.pretty)(options "")(descr ""))
+  (lib (name TO220_Heatsink)(type KiCad)(uri ${KIPRJMOD}/TO220_Heatsink)(options "")(descr ""))
+)

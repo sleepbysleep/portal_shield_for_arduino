@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name panasonic_pa_relays)(type Legacy)(uri ${KIPRJMOD}/panasonic_pa_relays.lib)(options "")(descr ""))
+)
