@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/daysleep/Workspace/portal_shield_for_arduino/portal_shield_for_arduino.sch</source>
+    <date>Tue 13 Aug 2019 10:08:11 AM KST</date>
+    <tool>Eeschema 5.0.2+dfsg1-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>lun. 30 mars 2015</date>
+        <source>portal_shield_for_arduino.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="P1">
+      <value>Power</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70129</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Analog</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x06</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D70DD8</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71177</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D71274</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712A8</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>CONN_01X01</value>
+      <footprint>Socket_Arduino_Uno:Arduino_1pin</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x01" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D712DB</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x08</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x08" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D7164F</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Digital</value>
+      <footprint>Socket_Arduino_Uno:Socket_Strip_Arduino_1x10</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x10" description="Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56D721E0</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LTV-817S</value>
+      <footprint>Package_DIP:SMDIP-4_W9.53mm</footprint>
+      <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
+      <libsource lib="Isolator" part="LTV-817S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA4006</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CAMERA_CONFIG</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA46CF</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CAMERA_CONN</value>
+      <footprint>TerminalBlock_Phoenix_PTSA:TerminalBlock_Phoenix_PTSA-1,5-2-3.5-Z_1x2_P3.5mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA57E0</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>STP16NF06L</value>
+      <footprint>TO220_Heatsink:TO220_3_DH15A_HEATSINK</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</datasheet>
+      <libsource lib="Transistor_FET" part="IRLB8721PBF" description="62A Id, 30V Vds, N-Channel MOSFET, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA58BE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFA5CAD</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFAE160</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>ATX_BTN_CONN</value>
+      <footprint>TerminalBlock_Phoenix_PTSA:TerminalBlock_Phoenix_PTSA-1,5-2-3.5-Z_1x2_P3.5mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB24A3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LTV-817S</value>
+      <footprint>Package_DIP:SMDIP-4_W9.53mm</footprint>
+      <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
+      <libsource lib="Isolator" part="LTV-817S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB2563</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB25D5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.vishay.com/docs/85748/1n4148w.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148W" description="75V 0.15A Fast Switching Diode, SOD-123"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB5BD1</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFB5CA3</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>Relay_Panasonic_PA1a_XX_DIP</value>
+      <footprint>Relay_Panasonic:Relay_Panasonic_PA1a_xx_DIP</footprint>
+      <libsource lib="panasonic_pa_relays" part="Relay_Panasonic_PA1a_XX_DIP" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFC5617</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LTV-817S</value>
+      <footprint>Package_DIP:SMDIP-4_W9.53mm</footprint>
+      <datasheet>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</datasheet>
+      <libsource lib="Isolator" part="LTV-817S" description="DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD1972</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>LIGHT_CONFIG</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD1979</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>LIGHT_CONN</value>
+      <footprint>TerminalBlock_Phoenix_PTSA:TerminalBlock_Phoenix_PTSA-1,5-2-3.5-Z_1x2_P3.5mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD1980</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>STP16NF06L</value>
+      <footprint>TO220_Heatsink:TO220_3_DH15A_HEATSINK</footprint>
+      <datasheet>http://www.infineon.com/dgdl/irlb8721pbf.pdf?fileId=5546d462533600a40153566056732591</datasheet>
+      <libsource lib="Transistor_FET" part="IRLB8721PBF" description="62A Id, 30V Vds, N-Channel MOSFET, TO-220"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD1987</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD198E</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD19BD</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>CAM_LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD6740</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD69E2</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CFD6A7A</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LIGHT_LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D059BE5</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A8C2B</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>ATX_LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D0A8DB3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D116F53</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>5V_LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED_ALT" description="Light emitting diode, filled shape"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D116F59</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BSS123LT1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D4D357D</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BSS123LT1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D509497</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BSS123LT1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D524428</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x08">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x10">
+      <description>Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED_ALT">
+      <description>Light emitting diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MMSD914">
+      <aliases>
+        <alias>1N4148W</alias>
+        <alias>BAV16W</alias>
+        <alias>1N4448W</alias>
+      </aliases>
+      <description>100V 0.2A Switching Diode, SOD-123</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MMSD914T1-D.PDF</docs>
+      <footprints>
+        <fp>D*SOD?123*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMSD914</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="LTV-817S">
+      <description>DC Optocoupler, Vce 35V, CTR 50%, SMDIP-4</description>
+      <docs>http://www.us.liteon.com/downloads/LTV-817-827-847.PDF</docs>
+      <footprints>
+        <fp>SMDIP*W9.53mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTV-817S</field>
+        <field name="Footprint">Package_DIP:SMDIP-4_W9.53mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>MMBF170</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BUZ11">
+      <aliases>
+        <alias>IRF3205</alias>
+        <alias>IRF540N</alias>
+        <alias>IRF740</alias>
+        <alias>IRLB8721PBF</alias>
+        <alias>IRLZ34N</alias>
+        <alias>IRLZ44N</alias>
+      </aliases>
+      <description>30A Id, 50V Vds, N-Channel Power MOSFET, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/BU/BUZ11.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUZ11</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-220-3_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="panasonic_pa_relays" part="Relay_Panasonic_PA1a_XX_DIP">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">Relay_Panasonic_PA1a_XX_DIP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/usr/share/kicad/library/Diode.lib</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>/usr/share/kicad/library/Isolator.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="panasonic_pa_relays">
+      <uri>/home/daysleep/Workspace/portal_shield_for_arduino/panasonic_pa_relays.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="P3" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="7"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="2" name="Net-(J4-Pad5)">
+      <node ref="J4" pin="5"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J4-Pad4)">
+      <node ref="J5" pin="1"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="4" name="/Vin(12V)">
+      <node ref="R4" pin="1"/>
+      <node ref="J2" pin="6"/>
+      <node ref="P1" pin="8"/>
+      <node ref="J4" pin="6"/>
+    </net>
+    <net code="5" name="Net-(J4-Pad3)">
+      <node ref="J4" pin="3"/>
+      <node ref="J5" pin="2"/>
+    </net>
+    <net code="6" name="+5V">
+      <node ref="D3" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="P1" pin="5"/>
+      <node ref="D4" pin="2"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="K1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="K1" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="11" name="/6(**)">
+      <node ref="P4" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="K1" pin="6"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="14" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q5-Pad3)">
+      <node ref="R9" pin="2"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="16" name="/3(**)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="P4" pin="5"/>
+    </net>
+    <net code="17" name="/5(**)">
+      <node ref="R6" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="18" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D5-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q3-Pad3)">
+      <node ref="R7" pin="2"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q2-Pad3)">
+      <node ref="R5" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="23" name="Net-(D2-Pad1)">
+      <node ref="R5" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="24" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1"/>
+    </net>
+    <net code="25" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1"/>
+    </net>
+    <net code="26" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="27" name="/IOREF">
+      <node ref="P1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="29" name="/A5(SCL)">
+      <node ref="P3" pin="1"/>
+      <node ref="P2" pin="6"/>
+    </net>
+    <net code="30" name="/A4(SDA)">
+      <node ref="P3" pin="2"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="31" name="/A3">
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="32" name="/A2">
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="33" name="/A1">
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="34" name="/A0">
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="35" name="+3V3">
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="36" name="/12(MISO)">
+      <node ref="P3" pin="6"/>
+    </net>
+    <net code="37" name="/11(**/MOSI)">
+      <node ref="P3" pin="7"/>
+    </net>
+    <net code="38" name="/10(**/SS)">
+      <node ref="P3" pin="8"/>
+    </net>
+    <net code="39" name="/9(**)">
+      <node ref="P3" pin="9"/>
+    </net>
+    <net code="40" name="/8">
+      <node ref="P3" pin="10"/>
+    </net>
+    <net code="41" name="/7">
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="42" name="/4">
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="43" name="/AREF">
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="44" name="/1(Tx)">
+      <node ref="P4" pin="7"/>
+    </net>
+    <net code="45" name="/2">
+      <node ref="P4" pin="6"/>
+    </net>
+    <net code="46" name="/0(Rx)">
+      <node ref="P4" pin="8"/>
+    </net>
+    <net code="47" name="/13(SCK)">
+      <node ref="P3" pin="5"/>
+    </net>
+    <net code="48" name="/Reset">
+      <node ref="P1" pin="3"/>
+    </net>
+    <net code="49" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad5)">
+      <node ref="Q1" pin="2"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+  </nets>
+</export>
